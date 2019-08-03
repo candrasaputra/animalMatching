@@ -13,8 +13,10 @@ Thes project for education purposes only and as final project phase 0 - batch 34
 
 ◧ [**Play Animal Matching!**](https://candrasaputra.github.io/animalMatching/index.html)
 
-![alt text](./assets/screenshoot/1.png " Home")
-![alt text](./assets/screenshoot/2.png " Play")
+![alt text](./screenshot/1.png " Home")
+![alt text](./screenshot/2.png " Play")
+![alt text](./screenshot/3.png " Leaderboard")
+![alt text](./screenshot/4.png " Guid")
 
 **How to Play**
 
