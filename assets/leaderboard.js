@@ -31,4 +31,8 @@ for (let k in leaderboard) {
     i++;
 }
 
+if (leaderboard.length === 0) {
+    list = 'No Record!'
+}
+
 document.getElementById('leaderboard').innerHTML = list;
