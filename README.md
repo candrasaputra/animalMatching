@@ -15,17 +15,12 @@ Thes project for education purposes only and as final project phase 0 - batch 34
 
 **Mobile**
 
-<img src="./screenshot/m1.png" width="150">
-<img src="./screenshot/m2.png" width="150">
-<img src="./screenshot/m3.png" width="150">
-<img src="./screenshot/m4.png" width="150">
+<img src="./screenshot/m1.png" width="150"><img src="./screenshot/m2.png" width="150"><img src="./screenshot/m3.png" width="150"><img src="./screenshot/m4.png" width="150">
 
 **Desktop**
 
-<img src="./screenshot/1.png" width="350">
-<img src="./screenshot/2.png" width="350">
-<img src="./screenshot/3.png" width="350">
-<img src="./screenshot/4.png" width="350">
+<img src="./screenshot/1.png" width="350"><img src="./screenshot/2.png" width="350">
+<img src="./screenshot/3.png" width="350"><img src="./screenshot/4.png" width="350">
 
 **Guid**
 
