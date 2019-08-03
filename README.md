@@ -13,12 +13,21 @@ Thes project for education purposes only and as final project phase 0 - batch 34
 
 ◧ [**Play Animal Matching!**](https://candrasaputra.github.io/animalMatching/index.html)
 
-![alt text](./screenshot/1.png " Home")
-![alt text](./screenshot/2.png " Play")
-![alt text](./screenshot/3.png " Leaderboard")
-![alt text](./screenshot/4.png " Guid")
+**Mobile**
 
-**How to Play**
+<img src="./screenshot/m1.png" width="150">
+<img src="./screenshot/m2.png" width="150">
+<img src="./screenshot/m3.png" width="150">
+<img src="./screenshot/m4.png" width="150">
+
+**Desktop**
+
+<img src="./screenshot/1.png" width="350">
+<img src="./screenshot/2.png" width="350">
+<img src="./screenshot/3.png" width="350">
+<img src="./screenshot/4.png" width="350">
+
+**Guid**
 
 - Turn over any two cards.
 - If the two cards match, keep them.
