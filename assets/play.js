@@ -11,6 +11,8 @@ const cards = document.querySelectorAll('.cards');
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
+let cardLeft = cards.length;
+let interval = null;
 
 function flipCard() {
     flipSound.play();
@@ -26,9 +28,31 @@ function flipCard() {
 
         return;
     }
-
     secondCard = this;
     checkForMatch();
+    isFinish();
+}
+
+function isFinish() {
+    if (cardLeft === 0) {
+        backgroundMusic.pause();
+        clearInterval(interval);
+
+        let player = prompt("Please enter your name", "");
+        if (player == null || player == "") {
+            window.location.assign('index.html')
+        } else {
+            let leaderboard = window.localStorage.getItem('leaderboard');
+            leaderboard = (leaderboard === null) ? [] : JSON.parse(leaderboard);
+            leaderboard.push({
+                name: player,
+                time: window.localStorage.getItem('currentTime')
+            });
+
+            window.localStorage.setItem('leaderboard', JSON.stringify(leaderboard));
+            window.location.assign('index.html')
+        }
+    }
 }
 
 function checkForMatch() {
@@ -42,6 +66,7 @@ function disableCards() {
 
     firstCard.removeEventListener('click', flipCard);
     secondCard.removeEventListener('click', flipCard);
+    cardLeft -= 2;
 
     resetBoard();
 }
@@ -72,16 +97,16 @@ function shuffleCards() {
 
 function time() {
     let x = 0;
-    setInterval(() => {
+    interval = setInterval(() => {
         document.getElementById('time-remaining').innerHTML = x;
+        window.localStorage.setItem('currentTime', x);
         x++;
     }, 1000);
-
-
 }
 
 function startGame() {
     backgroundMusic.play();
+
     time();
 
     shuffleCards();
