@@ -1,7 +1,15 @@
 # Animal Matching
 
 Animal matching is game to test your memory and see how quickly you can clear the board by matching up the pairs.
-Build using HTML, bootstrap and vanilla JS for final project phase 0 - batch 34 (Humble Fox).
+
+**Build with**
+
+- HTML
+- CSS
+- Bootstrap 4
+- Vanilla JS
+
+Thes project for education purposes only and as final project phase 0 - batch 34 (Humble Fox) at Hacktiv8.
 
 ◧ [**Play Animal Matching!**](https://candrasaputra.github.io/animalMatching/index.html)
 
